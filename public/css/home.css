@@ -1,0 +1,230 @@
+.form-control {
+    border-radius: 1.25rem;
+    background: #fff;
+    border: 1px solid #f0f1f5;
+    color: black;
+    height: 56px;
+    font-weight: 500!important;
+}
+.form-control:hover, .form-control:focus, .form-control.active {
+    box-shadow: none;
+    background: #fff;
+    color: black;
+}
+
+table.dataTable thead th {
+    font-size: 16px;
+}
+table.dataTable thead .sorting {
+    background-image: unset;
+}
+table.dataTable thead .sorting_asc {
+    background-image: unset;
+}
+td.sorting_1 {
+    line-height: 24px;
+}
+table.dataTable tbody td {
+    padding: 20px 17px;
+}
+.n_contact{
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	font-size: 18px;
+}
+.contact-bx{
+	text-align: center;
+}
+.contact-bx .card-header {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.contact-bx .image-bx {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+.contact-bx .image-bx img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+.contact-bx .image-bx span.active {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    border-radius: 2rem;
+    background: #09bd3c;
+    border: 4px solid #fff;
+}
+.user-meta-info ul {
+    display: flex;
+    justify-content: center;
+}
+.user-meta-info ul li a {
+    margin: 0 10px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+    background: rgb(254 99 78 / 10%);
+    color: #fe634e;
+    line-height: 48px;
+    display: block;
+    font-size: 20px;
+    transition: all .5s;
+    text-align: center;
+}
+.user-meta-info ul li a:hover {
+    background: #fe634e;
+    color: #fff; 
+}
+.btn-link{
+	cursor: pointer;
+}
+.contact-bx .dropdown-menu.show{
+	display: block;
+	margin: 0px;
+    inset: 0px auto auto 0px;
+    transform: translate(0px, 26px)!important;
+}
+
+
+/********************************************/
+
+
+.status_btn{
+
+    font-size: 0.813rem !important;
+    padding: 0.625rem 1rem;
+    border-radius: 1.25rem;
+    font-weight: 500;
+
+}
+
+ div#pageMessages {
+    position: absolute;
+    top: 5%;
+    right: 28px;
+    z-index: 999;
+    display: inline-block;
+    float: right;
+}
+
+
+.modal-confirm {        
+    color: #636363;
+    width: 400px;
+}
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+.modal-confirm .modal-header {
+    border-bottom: none;   
+    position: relative;
+}
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -10px;
+}
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+.modal-confirm .modal-body {
+    color: #999;
+}
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;     
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px 15px 25px;
+}
+.modal-confirm .modal-footer a {
+    color: #999;
+}       
+.modal-confirm .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 9;
+    text-align: center;
+    border: 3px solid #f15e5e;
+}
+.modal-confirm .icon-box i {
+    color: #f15e5e;
+    font-size: 46px;
+    display: inline-block;
+    margin-top: 13px;
+}
+.modal-confirm .btn, .modal-confirm .btn:active {
+    color: #fff;
+    border-radius: 4px;
+    background: #60c7c1;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    min-width: 120px;
+    border: none;
+    min-height: 40px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.modal-confirm .btn-secondary {
+    background: #c1c1c1;
+}
+.modal-confirm .btn-secondary:hover, .modal-confirm .btn-secondary:focus {
+    background: #a8a8a8;
+}
+.modal-confirm .btn-danger {
+    background: #f15e5e;
+}
+.modal-confirm .btn-danger:hover, .modal-confirm .btn-danger:focus {
+    background: #ee3535;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
+.dataTables_info{
+
+    display: none;
+}
+
+.paging_simple_numbers{
+
+    display: none;
+}
+.new_pagination{
+
+    display: block!important;
+}
+.status_btn {
+    font-size: 0.813rem !important;
+    padding: 0.625rem 1rem;
+    border-radius: 1.25rem;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+}
+td.dot-status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.dot-status i{
+
+    width: 5%;
+    text-align: right;
+}
